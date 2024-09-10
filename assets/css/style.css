@@ -85,6 +85,7 @@ a {
 }
 .wrap {
 	flex-wrap: wrap;
+
 }
 .product {
 	width: 66%;
@@ -93,12 +94,14 @@ a {
 }
 
 .heart {
+    width: 5%;
 	position: absolute;
 
 	background-color: white;
 	color: black;
 }
 .position-heart {
+
 	top: 8%;
 	left: 58%;
 	width: 4.5%;
@@ -119,4 +122,9 @@ a {
 	position: absolute;
 	top: 94%;
 	left: 4%;
+}
+.dimension{
+    width: 30%;
+    margin: 10px;
+    
 }
