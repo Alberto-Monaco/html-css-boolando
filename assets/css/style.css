@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.debug *{
+    border: 1px dashed black
+}
+
+.debug header{
+    background-color: blue;
+    height: 70px;
+}
+.debug main{
+    background-color: green;
+    height: 765px;
+}
+.debug footer{
+    background-color: red;
+    height: 80px;
+}
+
+.container-header {
+    
+}
+.bg-orange{
+    background-color: #ff6900;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.menu{
+    width: 50%;
+    margin-left: 15%;
+}
+.list{
+    padding-right: 0.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 15px;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    display: block;
+}
