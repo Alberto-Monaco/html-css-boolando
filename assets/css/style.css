@@ -41,8 +41,8 @@ header {
 }
 
 .menu {
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 15%;
+	margin-right: 18%;
 }
 .list {
 	list-style: none;
@@ -76,7 +76,15 @@ a {
 }
 
 .container-main {
-	width: 60%;
+	width: 70%;
 	margin: auto;
 	min-height: 600px;
+	margin-top: 3rem;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+.product {
+	width: 30%;
+	padding: 10px;
 }
