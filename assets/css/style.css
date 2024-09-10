@@ -1,102 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-img{
-    max-width: 100%;
+img {
+	max-width: 100%;
 }
-.debug *{
-    border: 1px dashed black
+.debug * {
+	border: 1px dashed black;
 }
 
-.debug header{
-    background-color: blue;
-    height: 60px;
+.debug header {
+	background-color: blue;
+	height: 60px;
 }
-.debug main{
-    background-color: green;
-    height: 765px;
+.debug main {
+	background-color: green;
+	height: 765px;
 }
-.debug footer{
-    background-color: red;
-    height: 80px;
+.debug footer {
+	background-color: red;
+	height: 80px;
 }
-header{
-    width: 100%;
-    background-color: #ff6900;
+header {
+	width: 100%;
+	background-color: #ff6900;
 }
 .container-header {
-    margin: auto;
-    width: 70%;
-
+	margin: auto;
+	width: 70%;
 }
-.bg-orange{
-    background-color: #ff6900;
-    width: 100%;
-}
-
-.d-flex{
-    display: flex;
-    align-items: center;
+.bg-orange {
+	background-color: #ff6900;
+	width: 100%;
 }
 
-.menu{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.list{
-
-    list-style: none;
-
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    display: block;
-}
-.logo{
-
-
-}
-.justify-content-between{
-    justify-content: space-between;
-    align-items: center;
+.d-flex {
+	display: flex;
+	align-items: center;
 }
 
-.justify-content{
-    justify-content: center;
-    align-items: center;
+.menu {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.list {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	display: block;
+}
+.logo {
+}
+.justify-content-between {
+	justify-content: space-between;
+	align-items: center;
 }
 
+.justify-content {
+	justify-content: center;
+	align-items: center;
+}
 
-.icon{
-    width: 2%;
+.icon {
+	width: 2%;
 }
 
 .container-main {
-
-    width: 70%;
-    margin: auto;
-    min-height: 480px;
-
-}
-.photo{
-    max-width: 33%;
-}
-.section{
-
-    margin: auto;
-
-}
-.text{
-    text-align: center;
-    font-size: 6px;
+	width: 60%;
+	margin: auto;
+	min-height: 600px;
 }
