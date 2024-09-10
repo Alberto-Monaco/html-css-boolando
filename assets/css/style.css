@@ -169,3 +169,40 @@ a {
 	color: red;
 	font: bold;
 }
+footer{
+
+	background-color: #1a1a1a;
+}
+.container-footer{
+	padding-right: 10rem;
+	padding-left:10rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+
+
+}
+
+.text-footer{
+	color: white;
+	font-size: 15px;
+	line-height: 2rem;
+}
+
+.text-footer2{
+	color: white;
+	font-size: 10px;
+}
+.social{
+	color: white;
+	font-size: 15px;
+	padding-left: 6rem;
+	line-height: 2rem;
+
+
+}
+
+.icons{
+	display: inline-block;
+	padding-right: 2rem;
+	line-height: 1rem;
+}
