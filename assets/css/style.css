@@ -16,13 +16,17 @@ img {
 }
 .debug main {
 	background-color: green;
-	height: 765px;
+	height: 1300px;
 }
 .debug footer {
 	background-color: red;
 	height: 80px;
 }
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
 	width: 100%;
 	background-color: #ff6900;
 }
@@ -59,8 +63,7 @@ a {
 	text-align: center;
 	display: block;
 }
-.logo {
-}
+
 .justify-content-between {
 	justify-content: space-between;
 	align-items: center;
@@ -76,7 +79,7 @@ a {
 }
 
 .container-main {
-	width: 70%;
+	width: 80%;
 	margin: auto;
 	margin-top: 3rem;
 }
@@ -84,17 +87,36 @@ a {
 	flex-wrap: wrap;
 }
 .product {
-	width: 30%;
+	width: 66%;
 	padding: 25px;
-    padding-bottom: 30px;
-}
-.product:hover {
-    opacity: 0.5;
-}
-.text{
-    position: absolute;
-    top: 25%;
-    left:20%;
-    font-size: 10px;
+	padding-bottom: 60px;
 }
 
+.heart {
+	position: absolute;
+
+	background-color: white;
+	color: black;
+}
+.position-heart {
+	top: 8%;
+	left: 58%;
+	width: 4.5%;
+}
+
+.photo {
+	position: relative;
+
+
+}
+.text {
+	position: absolute;
+	top: 91%;
+	left: 4%;
+}
+
+.text2 {
+	position: absolute;
+	top: 94%;
+	left: 4%;
+}
