@@ -128,3 +128,17 @@ a {
     margin: 10px;
     
 }
+
+.photo:hover .product-bsrc{
+    display: block;
+    width: 100%;
+}
+
+.product-bsrc{
+    display: none;
+}
+
+.photo:hover .product{
+    display: none;
+    min-width: 100%;
+}
