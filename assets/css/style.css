@@ -46,7 +46,7 @@ header{
     margin-right: 10%;
 }
 .list{
-    padding-right: 0.3rem;
+
     list-style: none;
 
 }
@@ -75,17 +75,28 @@ a{
     justify-content: center;
     align-items: center;
 }
-body{
-    
-}
-.justify-content-end{
-    justify-content: end;
-}
-.logo{
-    width: 10%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
+
+
 .icon{
     width: 2%;
+}
+
+.container-main {
+
+    width: 70%;
+    margin: auto;
+    min-height: 480px;
+
+}
+.photo{
+    max-width: 33%;
+}
+.section{
+
+    margin: auto;
+
+}
+.text{
+    text-align: center;
+    font-size: 6px;
 }
