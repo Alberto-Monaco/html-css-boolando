@@ -12,7 +12,7 @@ img{
 
 .debug header{
     background-color: blue;
-    height: 70px;
+    height: 60px;
 }
 .debug main{
     background-color: green;
@@ -22,34 +22,37 @@ img{
     background-color: red;
     height: 80px;
 }
-
+header{
+    width: 100%;
+    background-color: #ff6900;
+}
 .container-header {
-    
+    margin: auto;
+    width: 70%;
+
 }
 .bg-orange{
     background-color: #ff6900;
+    width: 100%;
 }
 
 .d-flex{
     display: flex;
+    align-items: center;
 }
 
 .menu{
-    width: 50%;
     margin-left: 15%;
 }
 .list{
     padding-right: 0.3rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 15px;
     list-style: none;
-    
+
 }
 a{
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -57,4 +60,19 @@ a{
     padding-bottom: 1rem;
     text-align: center;
     display: block;
+}
+.logo{
+    margin-right: 75%;
+
+}
+.justify-content-between{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justify-content{
+    justify-content: center;
+}
+body{
+    
 }
