@@ -23,10 +23,10 @@ img {
 	height: 80px;
 }
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 99;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
 	width: 100%;
 	background-color: #ff6900;
 }
@@ -77,7 +77,7 @@ a {
 .icon {
 	width: 2%;
 }
-main{
+main {
 	width: 100%;
 	margin-bottom: 10rem;
 }
@@ -85,7 +85,6 @@ main{
 	width: 65%;
 	margin: auto;
 	margin-top: 10rem;
-
 }
 .container-footer {
 	width: 100%;
@@ -94,7 +93,6 @@ main{
 }
 .wrap {
 	flex-wrap: wrap;
-
 }
 .product {
 	width: 97%;
@@ -103,14 +101,13 @@ main{
 }
 
 .heart {
-    width: 5%;
+	width: 5%;
 	position: absolute;
 
 	background-color: white;
 	color: black;
 }
 .position-heart {
-
 	top: 8%;
 	left: 80%;
 	width: 10%;
@@ -133,34 +130,32 @@ main{
 	font-size: 22px;
 }
 
-
-.photo:hover .product-bsrc{
-    display: block;
+.photo:hover .product-bsrc {
+	display: block;
 	width: 97%;
 	padding: 25px;
 	padding-bottom: 60px;
 }
 
-.product-bsrc{
-    display: none;
+.product-bsrc {
+	display: none;
 }
 
-.photo:hover .product{
-    display: none;
-    min-width: 100%;
+.photo:hover .product {
+	display: none;
+	min-width: 100%;
 }
 
-.discount{
+.discount {
 	position: absolute;
 	top: 75%;
 	left: 6%;
 	padding: 5px;
 	background-color: red;
 	color: white;
-
 }
 
-.ambient{
+.ambient {
 	position: absolute;
 	top: 75%;
 	left: 20%;
@@ -169,7 +164,7 @@ main{
 	color: white;
 }
 
-.price{
+.price {
 	position: absolute;
 	top: 96%;
 	left: 6%;
@@ -178,43 +173,39 @@ main{
 	color: red;
 	font: bold;
 }
-footer{
+footer {
 	position: fixed;
-    BOTTOM: 0;
-    left: 0;
-    z-index: 99;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
 	width: 100%;
 	background-color: #1a1a1a;
 }
-.container-footer{
+.container-footer {
 	padding-right: 10rem;
-	padding-left:10rem;
+	padding-left: 10rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-
-
 }
 
-.text-footer{
+.text-footer {
 	color: white;
 	font-size: 15px;
 	line-height: 2rem;
 }
 
-.text-footer2{
+.text-footer2 {
 	color: white;
 	font-size: 10px;
 }
-.social{
+.social {
 	color: white;
 	font-size: 15px;
 	padding-left: 6rem;
 	line-height: 2rem;
-
-
 }
 
-.icons{
+.icons {
 	display: inline-block;
 	padding-right: 2rem;
 	line-height: 1rem;
